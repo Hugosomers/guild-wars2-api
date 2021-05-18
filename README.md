@@ -1,1 +1,1 @@
-# guild-wars2-api
+# Rick and Morty API
