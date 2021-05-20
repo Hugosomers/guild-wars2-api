@@ -7,7 +7,6 @@
   <title>Rick and Morty - API</title>
   <link rel="stylesheet" href="/bootstrap-5.0.1-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
 </head>
 <body>
   <header>
@@ -16,8 +15,16 @@
     </nav>
   </header>
   <hr class="mt-1">
+  <section class="control-section">
+  <h3 class="title-hero">Mude a página para ver novos personagens!</h3>
+    <select class="form-select form-select-sm" aria-label="Default select example" onchange="location.reload()">
+      <option selected>Quer mudar de página?</option>
+
+    </select>
+  </section>
   <main class="main">
 
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
