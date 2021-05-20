@@ -1,9 +1,76 @@
+body{
+  background-color: #1D1F20;
+}
 .main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .card {
+  background-color: #1D1F20;
+  color: white;
+  border: 1px solid rgba(128, 128, 128, 0.425);
   margin: 20px;
   width: 18rem;
+  height: 23em;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 4px;
+}
+
+@keyframes borderAnimation {
+  0%  {border: 1px solid #f79533;}
+  10% {border: 1px solid #f37055;}
+  20% {border: 1px solid #ef4e7b;}
+  30% {border: 1px solid #a166ab;}
+  40% {border: 1px solid #5073b8;}
+  50% {border: 1px solid #1098ad;}
+  60% {border: 1px solid #07b39b;}
+  70% {border: 1px solid #6fba82;}
+}
+
+.card:hover {
+  transition: 2s;
+  z-index: 1000;
+  transform: scale(1.1);
+  overflow: auto;
+  animation-name: borderAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+  animation-timing-function: ease-in-out;
+}
+
+.card:hover::-webkit-scrollbar {
+  width: 5px;
+}
+
+.card:hover::-webkit-scrollbar-thumb {
+  background: rgba(19, 180, 192, 0.548); 
+  border-radius: 10px;
+}
+
+.card:hover .card-text {
+  visibility: visible;
+  transition: 1s linear;
+  opacity: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.mt-1 {
+  color: white;
+  margin: 0 auto;
+  width: 30%;
 }
