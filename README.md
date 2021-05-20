@@ -13,4 +13,4 @@ Link: https://getbootstrap.com/
 
 # Preview
 
-![Alt text](https://user-images.githubusercontent.com/42069442/118913769-80faf100-b900-11eb-9418-274ad750a702.png)
+![Preview básico do site](https://user-images.githubusercontent.com/42069442/118913769-80faf100-b900-11eb-9418-274ad750a702.png)
