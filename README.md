@@ -1,6 +1,9 @@
 # Projeto bônus utilizando a API do Rick and Morty
 
-Projeto bônus
+O que fazer?
+- Utilizar uma API externa;
+- Utilizar funções HoF;
+- Utilizar um framework CSS;
 
 # API 
 Link: https://rickandmortyapi.com/
