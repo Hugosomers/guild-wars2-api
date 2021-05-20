@@ -3,7 +3,7 @@
 Projeto bônus
 
 # API 
-Link API: https://rickandmortyapi.com/
+Link: https://rickandmortyapi.com/
 
 # Framework BOOTSTRAP
 Link: https://getbootstrap.com/
