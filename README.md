@@ -9,7 +9,7 @@ O que fazer?
 Link: https://rickandmortyapi.com/
 
 # Framework BOOTSTRAP
-Link: https://getbootstrap.com/![Captura de tela de 2021-05-20 00-14-01]
+Link: https://getbootstrap.com/
 
 # Preview
 
