@@ -17,10 +17,12 @@
   <hr class="mt-1">
   <section class="control-section">
   <h3 class="title-hero">Mude a página para ver novos personagens!</h3>
-    <select class="form-select form-select-sm" aria-label="Default select example" onchange="location.reload()">
-      <option selected>Quer mudar de página?</option>
-
-    </select>
+    <div class="buttonClass">
+    <button id="prevBttn" class="controlBttns"> &lt; Previous</button>
+    <span id="pageCount"></span>
+    <button id="nextBttn" class="controlBttns">Next &gt;</button>
+    </div>
+    
   </section>
   <main class="main">
 
