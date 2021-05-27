@@ -24,17 +24,21 @@ body{
   visibility: hidden;
   opacity: 0;
   border-radius: 4px;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 @keyframes borderAnimation {
-  0%  {border: 1px solid #f79533;}
-  10% {border: 1px solid #f37055;}
-  20% {border: 1px solid #ef4e7b;}
-  30% {border: 1px solid #a166ab;}
-  40% {border: 1px solid #5073b8;}
-  50% {border: 1px solid #1098ad;}
-  60% {border: 1px solid #07b39b;}
-  70% {border: 1px solid #6fba82;}
+  0%  {border: 2px solid #f79533;}
+  10% {border: 2px solid #f37055;}
+  20% {border: 2px solid #ef4e7b;}
+  30% {border: 2px solid #a166ab;}
+  40% {border: 2px solid #5073b8;}
+  50% {border: 2px solid #1098ad;}
+  60% {border: 2px solid #07b39b;}
+  70% {border: 2px solid #6fba82;}
+  80% {border: 2px solid #5073b8;}
+  100% {border: 2px solid #f79533;}
 }
 
 .card:hover {
@@ -86,8 +90,30 @@ body{
   color: rgba(19, 180, 192, 0.548);
 }
 
-.form-select {
-  margin-top: 20px ;
-  text-align: center;
-  width: 15rem;
+.buttonClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+
+#pageCount {
+  color: white;
+  font-size: 20px;
+}
+
+.controlBttns {
+  border: none;
+  background-color: #1D1F20;
+  margin: 15px;
+  padding: 5px;
+  width: 10vw;
+  border-radius: 4px;
+  color: rgba(19, 180, 192, 0.548);
+  font-weight: 700;
+  animation-name: borderAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+
 }
